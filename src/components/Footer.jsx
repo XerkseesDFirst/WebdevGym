@@ -1,11 +1,7 @@
-
-
-import './Footer.css';
-
 function Footer() {
   return (
-    <footer className="footer">
-      <p>&copy; 2025 Gym Website. All rights reserved.</p>
+    <footer className="w-full bg-neutral-950 text-[#bfa14a] text-center py-4 mt-8 shadow-inner">
+      <p className="text-sm">&copy; 2025 Amigos Gym. All rights reserved.</p>
     </footer>
   );
 }
